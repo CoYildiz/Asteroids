@@ -1,16 +1,32 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs (Boot.dev gibi projelerde genelde commitlenmez)
+game_state.jsonl
+game_events.jsonl
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest / cache
+.pytest_cache/
+.mypy_cache/
+
+# Build / dist
 build/
 dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
-.game_state.jsonl
-
-# emacs backups
+*.egg-info/
 
 .backups*
